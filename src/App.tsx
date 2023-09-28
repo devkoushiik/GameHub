@@ -6,7 +6,6 @@ import { useState } from "react";
 import PlatformSelector from "./componenets/PlatformSelector";
 import SortSelector from "./componenets/SortSelector";
 import GameHeading from "./componenets/GameHeading";
-import useGenres from "./hooks/useGenres";
 
 export interface GameQuery {
   genreId?: number;
