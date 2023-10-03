@@ -6,6 +6,7 @@ import { Heading } from "@chakra-ui/react";
 import ExpandableText from "../componenets/ExpandableText";
 import GameAttributes from "../componenets/GameAttributes";
 import GameTrailer from "../componenets/GameTrailer";
+import GameScreenshoots from "../componenets/GameScreenshoots";
 
 const Gamedetails = () => {
   const { slug } = useParams();
@@ -22,6 +23,7 @@ const Gamedetails = () => {
       <GameAttributes game={game} />
 
       <GameTrailer gameId={game.id} />
+      <GameScreenshoots gameId={game.id} />
     </div>
   );
 };
